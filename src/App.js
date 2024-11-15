@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { ethers } from 'ethers';
+import { Biconomy } from '@biconomy/web3-auth';
+import SmartAccount from '@biconomy/smart-account';
 
 function App() {
   return (
